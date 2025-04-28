@@ -16,4 +16,4 @@ patches:
           - name: operator
             env:
             - name: PGO_FEATURE_GATES
-              value: "OpenTelemetryLogs=true,OpenTelemetryMetrics=true"
+              value: "OpenTelemetryMetrics=true"
