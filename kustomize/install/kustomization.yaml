@@ -14,6 +14,7 @@ patches:
         spec:
           containers:
           - name: operator
+            image: sheitag/crunchy-postgres-operator:5.8.1
             env:
             - name: PGO_FEATURE_GATES
               value: "OpenTelemetryMetrics=true"
